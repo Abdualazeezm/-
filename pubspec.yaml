@@ -1,0 +1,17 @@
+
+name: whiteboard_ai
+description: تطبيق السبورة البيضاء بالذكاء الاصطناعي
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
